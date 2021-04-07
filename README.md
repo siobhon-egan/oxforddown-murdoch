@@ -19,8 +19,8 @@ Contents
 # Oxforddown
 A template for writing an Oxford University thesis in R Markdown. The template uses the [bookdown](https://bookdown.org) R package together with the [OxThesis LaTeX template](https://github.com/mcmanigle/OxThesis), plus lots of inspiration from [thesisdown](https://github.com/ismayc/thesisdown).
 
-- Sample PDF output: [**docs/_main.pdf**](https://github.com/ulyngs/oxforddown/blob/master/docs/_main.pdf)
-- Sample BS4 book output: [siobhon-egan.github.io/oxforddown-murdoch/](https://ulyngs.github.io/oxforddown/)
+- Sample PDF output: [**docs/_main.pdf**](https://github.com/siobhon-egan/oxforddown-murdoch/blob/master/docs/_main.pdf)
+- Sample BS4 book output: [siobhon-egan.github.io/oxforddown-murdoch/](https://siobhon-egan.github.io/oxforddown-murdoch/)
 
 Examples of theses written with `oxforddown`:
 - [Ulysses in Cyberspace: Examining the Effectiveness of Design Patterns for Digital Self-Control](https://ulyngs.github.io/phd-thesis/) by [Ulrik Lyngs](https://ulriklyngs.com)
@@ -30,6 +30,17 @@ Examples of theses written with `oxforddown`:
 
 ## How to cite
 [![DOI](https://zenodo.org/badge/159745024.svg)](https://zenodo.org/badge/latestdoi/159745024)
+
+```bibtex
+@misc{eganOxforddown2021,
+  author = {Egan, Siobhon},
+  title = {Murdoch flabour of oxforddown: Thesis Template for R Markdown},
+  year = {2021},
+  publisher = {GitHub},
+  journal = {GitHub repository},
+  howpublished = {\url{https://github.com/siobhon-egan/oxforddown-murdoch}},
+}
+```
 
 ```bibtex
 @misc{lyngsOxforddown2019,

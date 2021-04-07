@@ -2,8 +2,8 @@
 
 ::: {.row}
 :::::: {.col-sm-6}
-Welcome to the `bs4` output from the [`oxforddown`](https://github.com/ulyngs/oxforddown) thesis template for [R Markdown](https://rmarkdown.rstudio.com). 
-Template customised for **Murdoch University**.
+Welcome to the `bs4` output from the Murdoch flavour of [`oxforddown`](https://github.com/ulyngs/oxforddown) thesis template for [R Markdown](https://rmarkdown.rstudio.com). 
+Template customised for **Murdoch University** thesis.
 To view/download the PDF output, [click here](_main.pdf) (or click the cover image).
 Enjoy!
 
