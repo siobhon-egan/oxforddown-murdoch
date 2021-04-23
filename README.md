@@ -22,14 +22,9 @@ A template for writing an Oxford University thesis in R Markdown. The template u
 - Sample PDF output: [**docs/_main.pdf**](https://github.com/siobhon-egan/oxforddown-murdoch/blob/master/docs/_main.pdf)
 - Sample BS4 book output: [siobhon-egan.github.io/oxforddown-murdoch/](https://siobhon-egan.github.io/oxforddown-murdoch/)
 
-Examples of theses written with `oxforddown`:
-- [Ulysses in Cyberspace: Examining the Effectiveness of Design Patterns for Digital Self-Control](https://ulyngs.github.io/phd-thesis/) by [Ulrik Lyngs](https://ulriklyngs.com)
-- [Teens, Screens and Wellbeing: An Improved Approach](https://www.amyorben.com/docs/thesis/index.html) by [Amy Orben](https://www.amyorben.com)
 
-*NOTE: If you've used this template to write your thesis, drop me a line at ulrik.lyngs@cs.ox.ac.uk and I'll add a link showcasing it!*
 
 ## How to cite
-[![DOI](https://zenodo.org/badge/159745024.svg)](https://zenodo.org/badge/latestdoi/159745024)
 
 ```bibtex
 @misc{eganOxforddown2021,
@@ -53,6 +48,12 @@ Examples of theses written with `oxforddown`:
   doi = {10.5281/zenodo.3484682},
 }
 ```
+
+---
+
+# Instructions
+
+The following instructions are from [ulyngs/oxforddown](https://github.com/ulyngs/oxforddown)
 
 ## Video tutorials
 NOTE: as per v2.0, the introduction chapter no longer needs to be named \_introduction.Rmd! Apart from this, the videos should still be mostly right!
