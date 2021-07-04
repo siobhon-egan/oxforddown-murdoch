@@ -44,7 +44,7 @@
 \usepackage{threeparttablex}
 \usepackage[normalem]{ulem}
 \usepackage{makecell}
-\usepackage[colorlinks=false,pdfpagelabels,hidelinks=]{hyperref}
+\usepackage{hyperref}
 \usepackage{float}
 
 
@@ -182,7 +182,7 @@
 % Either way, you'll have to choose and configure an appropriate bibliography format...
 
 
-\usepackage[style=authoryear, sorting=nyt, backend=biber, maxcitenames=2, useprefix, doi=true, isbn=false, uniquename=false]{biblatex}
+\usepackage[style=authoryear, sorting=nyt, backend=biber, maxcitenames=1, firstinits=true, maxbibnames=10, date=year, useprefix, doi=true, isbn=false, uniquename=false, url=false]{biblatex}
 \newcommand*{\bibtitle}{References}
 
 \addbibresource{references.bib}
@@ -246,7 +246,7 @@ Modified template for Murdoch University}
 %
 % Oxford University logo on title page
 %
-\def\crest{{\includegraphics{templates/mulogo.pdf}}}
+\def\crest{{\includegraphics{templates/mulogo.png}}}
 \renewcommand{\university}{Murdoch University}
 \renewcommand{\submittedtext}{A thesis submitted for the degree of}
 
@@ -2498,9 +2498,12 @@ This first appendix includes an R chunk that was hidden in the document (using \
 % \end{savequote}
 
 \setlength{\baselineskip}{0pt} % JEM: Single-space References
-
-{\renewcommand*\MakeUppercase[1]{#1}%
-\printbibliography[heading=bibintoc,title={\bibtitle}]}
+\setquotestyle{english}
+\DeclareFieldFormat[inbook,thesis,article]{title}{\mkbibemph{#1}\addperiod} % italic title with period
+\renewbibmacro{in:}{} % remove the word in before journal title
+\DeclareFieldFormat{journaltitle}{\textbf{#1}\addcomma} % bold journal title with comma
+\DeclareFieldFormat[article]{volume}{{#1}\addcolon\space}
+\printbibliography
 
 
 \end{document}

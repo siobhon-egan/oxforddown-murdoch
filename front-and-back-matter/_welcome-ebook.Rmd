@@ -14,7 +14,7 @@ Based on package by Ulrik Lyngs, January 2021
 ::::::
 
 :::::: {.col-sm-6 .thesis-cover}
-<a href="_main.pdf" target="_blank"><img src="templates/cover2.png" alt="Download PDF" class="img-fluid"/></a> 
+<a href="_main.pdf" target="_blank"><img src="templates/coverpage.png" alt="Download PDF" class="img-fluid"/></a> 
 ::::::
 :::
 

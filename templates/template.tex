@@ -44,7 +44,7 @@
 \usepackage{threeparttablex}
 \usepackage[normalem]{ulem}
 \usepackage{makecell}
-\usepackage[colorlinks=false,pdfpagelabels,hidelinks=$hidelinks$]{hyperref}
+\usepackage{hyperref}
 \usepackage{float}
 
 
@@ -362,13 +362,13 @@ $body$
 
 $if(use-biblatex)$
 \setlength{\baselineskip}{0pt} % JEM: Single-space References
+\setquotestyle{english}
+\DeclareFieldFormat[inbook,thesis,article]{title}{\mkbibemph{#1}\addperiod} % italic title with period
+\renewbibmacro{in:}{} % remove the word in before journal title
+\DeclareFieldFormat{journaltitle}{\textbf{#1}\addcomma} % bold journal title with comma
+\DeclareFieldFormat[article]{volume}{{#1}\addcolon\space}
+\printbibliography
 
-{\renewcommand*\MakeUppercase[1]{#1}%
-\printbibliography[heading=bibintoc,title={\bibtitle}]}
-$endif$
-
-$if(use-natbib)$
-\bibliography{$bibliography$}
 $endif$
 
 \end{document}
